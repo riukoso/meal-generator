@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
+    <title>Meal Generator</title>
+</head>
+<body>
+    <section class="main-container">
+        <div class="content-container">
+            <h1>What should I eat today?</h1>
+            <div id="random-result" class="random-result">
+                <lottie-player src="https://assets2.lottiefiles.com/temp/lf20_nXwOJj.json"  background="transparent"  speed="1"  style="width: 250px; height: 100%;"  loop  autoplay></lottie-player>
+            </div>
+            <button class="btn no-select" onclick="getRandomMeal()">Generate meal</button>
+        </div>
+        <footer><p>by <a href="https://github.com/riukoso" target="_blank">riukoso</a></p></footer>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
